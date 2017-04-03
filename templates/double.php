@@ -11,7 +11,7 @@
 	    	<p>description of double room</p>
 	    </div>
 	    <div class="col-md-4">
-	    	<p><input  class="btn btn-md" value="book this!"></p>
+	    	<p><a href="booking-page.php"><input  class="btn btn-md" value="Book This Room"></a></p>
 	    </div>
     </div>
 </div>

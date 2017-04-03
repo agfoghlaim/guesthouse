@@ -21,7 +21,7 @@
                         <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Book Now</a>
+                        <a class="page-scroll" href="#booking">Book Now</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#about">Rooms</a>
