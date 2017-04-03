@@ -39,7 +39,7 @@
 
 	                		<div class="col-md-3">
 	                   			<div id="success"></div>
-	                 				<a href="#booking"><input id="marie" class="btn btn-md" value="check it!"></a>
+	                 				<a href="#booking"><button id="marie" class="btn btn-md" value="check it!">checkit</button></a>
 								</div>
 	                		</div>
 	                    </div>

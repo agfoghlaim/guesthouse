@@ -8,7 +8,7 @@
 	    	</a>
     	</div>
     	<div class="col-md-4">
-	    	<p>description of double room</p>
+	    	<p>description of this double room</p>
 	    </div>
 	    <div class="col-md-4">
 	    	<p><a href="booking-page.php"><input  class="btn btn-md" value="Book This Room"></a></p>

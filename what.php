@@ -46,6 +46,7 @@ session_start();
                             			echo"</div>";
                             			include'templates/'. $row['description'] .'.php';
                             		}
+                                          $_SESSION['amt'] = $row['amount'];
 
                             	}else{
                             		echo"your query failed but you are not a failure";

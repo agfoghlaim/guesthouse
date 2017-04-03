@@ -1,4 +1,6 @@
 <?php 
+session_start();
+$the_amount = $_SESSION['amt'];
 echo $_POST['stripeToken'];
 require_once('vendor/autoload.php');
 
@@ -12,7 +14,7 @@ $token = $_POST['stripeToken'];
 
 // Charge the user's card:
 $charge = \Stripe\Charge::create(array(
-  "amount" => 1000,
+  "amount" => $the_amount,
   "currency" => "eur",
   "description" => "Example charge",
   "source" => $token,

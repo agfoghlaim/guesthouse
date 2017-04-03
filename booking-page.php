@@ -166,7 +166,7 @@ echo $_SESSION['arrivaldate'];
 
 </script>
 <script src="https://js.stripe.com/v3/"></script>
-
+<div id="payment-div">
 <form action="charge.php" method="post" id="payment-form">
   <div class="form-row">
     <label for="card-element">
@@ -182,6 +182,7 @@ echo $_SESSION['arrivaldate'];
 
   <button>Submit Payment</button>
 </form>
+</div>
 
 
 
